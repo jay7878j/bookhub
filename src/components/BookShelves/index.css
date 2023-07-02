@@ -1,0 +1,253 @@
+.main-bookshelf-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  align-items: center;
+  background-color: #f5f7fa;
+  min-height: 92vh;
+}
+
+.books-card {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.input-search-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border: 1px solid lightgray;
+}
+
+.search-bar {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-btn {
+  width: 60px;
+  border: none;
+}
+
+.search-icon {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.bookshelves-heading {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.read-status-container {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.read-status-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.read-status-list-item {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.read-status-btn {
+  background-color: transparent;
+  border-radius: 25px;
+  min-width: 80px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: blue;
+  font-size: 15px;
+  padding: 7px 15px 7px 15px;
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.books-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-container-item {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.book-img {
+  height: 200px;
+}
+
+.book-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.book-title-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+.book-author-name {
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: #475569;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #475569;
+  /* margin-bottom: 10px; */
+  font-size: 17px;
+}
+
+.rating-icon {
+  color: black;
+  font-size: 16px;
+  margin: 0px 8px 0px 8px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  min-height: 50vh;
+}
+
+.read-status {
+  display: flex;
+  align-items: center;
+}
+
+.status-para {
+  font-size: 17px;
+  color: #475569;
+}
+
+.status {
+  color: #0284c7;
+}
+
+.md-search-container {
+  display: none;
+}
+
+.book-contact-container {
+  align-self: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 35%;
+  /* border: 1px solid red; */
+}
+
+.no-search-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.no-results-img {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.no-results-heading {
+  font-size: 25px;
+}
+
+.user-search-value {
+  color: red;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .books-card {
+    /* border: 1px solid red; */
+    width: 70%;
+  }
+  .books-card {
+    display: flex;
+    margin-top: 5vh;
+  }
+  .sm-search-input-container {
+    display: none;
+  }
+  .left-section {
+    background-color: #ffffff;
+    width: 20%;
+    padding: 25px;
+    min-height: 87vh;
+  }
+  .read-status-container1 {
+    flex-direction: column;
+  }
+  .read-status-list-item {
+    padding: 0px;
+    /* border: 1px solid red; */
+  }
+  .read-status-btn {
+    border: none;
+    /* border: 1px solid red; */
+    padding: 0px;
+    text-align: left;
+    color: #334155;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: 40px;
+    min-height: 87vh;
+    justify-content: space-between;
+    /* padding: 20px; */
+  }
+  .read-status-container {
+    margin: 0px;
+  }
+
+  .md-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .input-search-container {
+    width: 40%;
+  }
+  .books-list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .book-container {
+    width: 50%;
+  }
+  .book-contact-container {
+    width: 15%;
+    /* border: 1px solid red; */
+  }
+}
